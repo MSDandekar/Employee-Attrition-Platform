@@ -1,0 +1,4 @@
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = D:/Shin/Programming/ADS_project/backup/storage
