@@ -1,1 +1,30 @@
+# Data files
 /data
+
+# Local DVC storage / backups
+backup/
+
+# Archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# Old/generated duplicate experiment output
+/output/
+
+# MLflow local tracking
+code/mlflow.db
+code/mlruns/
+
+# Employee-level generated explanations
+/output.1/employee_explanations/
+/output.1/layoff_employees.csv

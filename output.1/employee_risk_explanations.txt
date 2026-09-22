@@ -1,0 +1,106 @@
+PER-EMPLOYEE RISK EXPLANATIONS — Logistic Regression (Primary Model)
+Mean predicted risk across test set (n=284): 0.371
+======================================================================
+Employee row 228 — predicted risk = 0.979 (actual: Left, predicted: Left)
+  This employee's predicted risk is 0.609 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. is_new_hire: +0.904 (higher risk contribution)
+    2. OverTime: +0.859 (higher risk contribution)
+    3. JobInvolvement: +0.822 (higher risk contribution)
+    4. BusinessTravel: +0.652 (higher risk contribution)
+    5. YearsAtCompany: -0.627 (lower risk contribution)
+    6. TotalWorkingYears: +0.424 (higher risk contribution)
+    7. DistanceFromHome: +0.415 (higher risk contribution)
+    8. YearsWithCurrManager: +0.412 (higher risk contribution)
+
+Employee row 72 — predicted risk = 0.970 (actual: Left, predicted: Left)
+  This employee's predicted risk is 0.599 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. is_new_hire: +0.904 (higher risk contribution)
+    2. OverTime: +0.859 (higher risk contribution)
+    3. YearsAtCompany: -0.718 (lower risk contribution)
+    4. income_per_experience_year: +0.564 (higher risk contribution)
+    5. TotalWorkingYears: +0.463 (higher risk contribution)
+    6. YearsWithCurrManager: +0.412 (higher risk contribution)
+    7. MaritalStatus: +0.400 (higher risk contribution)
+    8. DistanceFromHome: +0.356 (higher risk contribution)
+
+Employee row 268 — predicted risk = 0.955 (actual: Stayed, predicted: Left)
+  This employee's predicted risk is 0.584 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. income_per_experience_year: +1.072 (higher risk contribution)
+    2. is_new_hire: +0.904 (higher risk contribution)
+    3. YearsAtCompany: -0.718 (lower risk contribution)
+    4. TotalWorkingYears: +0.463 (higher risk contribution)
+    5. OverTime: -0.443 (lower risk contribution)
+    6. YearsWithCurrManager: +0.412 (higher risk contribution)
+    7. MaritalStatus: +0.400 (higher risk contribution)
+    8. JobInvolvement: +0.363 (higher risk contribution)
+
+Employee row 111 — predicted risk = 0.954 (actual: Left, predicted: Left)
+  This employee's predicted risk is 0.584 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. is_new_hire: +0.904 (higher risk contribution)
+    2. OverTime: +0.859 (higher risk contribution)
+    3. YearsAtCompany: -0.627 (lower risk contribution)
+    4. StockOptionLevel: -0.534 (lower risk contribution)
+    5. TotalWorkingYears: +0.424 (higher risk contribution)
+    6. YearsWithCurrManager: +0.412 (higher risk contribution)
+    7. income_per_experience_year: +0.396 (higher risk contribution)
+    8. JobInvolvement: +0.363 (higher risk contribution)
+
+Employee row 99 — predicted risk = 0.947 (actual: Left, predicted: Left)
+  This employee's predicted risk is 0.577 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. is_new_hire: +0.904 (higher risk contribution)
+    2. BusinessTravel: +0.652 (higher risk contribution)
+    3. YearsAtCompany: -0.627 (lower risk contribution)
+    4. OverTime: -0.443 (lower risk contribution)
+    5. TotalWorkingYears: +0.424 (higher risk contribution)
+    6. YearsWithCurrManager: +0.412 (higher risk contribution)
+    7. satisfaction_composite: +0.403 (higher risk contribution)
+    8. JobRole: +0.353 (higher risk contribution)
+
+Employee row 169 — predicted risk = 0.619 (actual: Stayed, predicted: Left)
+  This employee's predicted risk is 0.249 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. YearsAtCompany: -0.446 (lower risk contribution)
+    2. OverTime: -0.443 (lower risk contribution)
+    3. MaritalStatus: +0.400 (higher risk contribution)
+    4. DistanceFromHome: +0.356 (higher risk contribution)
+    5. JobRole: +0.353 (higher risk contribution)
+    6. TotalWorkingYears: +0.345 (higher risk contribution)
+    7. Department: +0.253 (higher risk contribution)
+    8. EducationField: +0.250 (higher risk contribution)
+
+Employee row 85 — predicted risk = 0.590 (actual: Stayed, predicted: Left)
+  This employee's predicted risk is 0.220 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. OverTime: -0.443 (lower risk contribution)
+    2. satisfaction_composite: +0.403 (higher risk contribution)
+    3. JobInvolvement: +0.363 (higher risk contribution)
+    4. YearsWithCurrManager: +0.318 (higher risk contribution)
+    5. DailyRate: +0.264 (higher risk contribution)
+    6. TotalWorkingYears: +0.226 (higher risk contribution)
+    7. NumCompaniesWorked: -0.183 (lower risk contribution)
+    8. YearsAtCompany: -0.173 (lower risk contribution)
+
+Employee row 20 — predicted risk = 0.540 (actual: Stayed, predicted: Left)
+  This employee's predicted risk is 0.170 above the mean predicted risk across the test set (0.371).
+  (Feature contributions below are in log-odds units, relative to the model's average baseline prediction — not a direct % scale.)
+  Top contributing features:
+    1. is_new_hire: +0.904 (higher risk contribution)
+    2. YearsAtCompany: -0.718 (lower risk contribution)
+    3. OverTime: -0.443 (lower risk contribution)
+    4. YearsWithCurrManager: +0.412 (higher risk contribution)
+    5. JobInvolvement: +0.363 (higher risk contribution)
+    6. DailyRate: -0.295 (lower risk contribution)
+    7. Department: +0.253 (higher risk contribution)
+    8. TotalWorkingYears: +0.226 (higher risk contribution)

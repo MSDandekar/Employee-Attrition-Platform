@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "results": [
+    {
+      "check": "not_null",
+      "column": "EmployeeNumber",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "unique",
+      "column": "EmployeeNumber",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "value_range_16_to_80",
+      "column": "Age",
+      "passed": true,
+      "details": "min=18.0, max=60.0"
+    },
+    {
+      "check": "value_range_0_to_50000",
+      "column": "MonthlyIncome",
+      "passed": true,
+      "details": "min=1009.0, max=24626.25"
+    },
+    {
+      "check": "value_range_0_to_60",
+      "column": "YearsAtCompany",
+      "passed": true,
+      "details": "min=0, max=40"
+    },
+    {
+      "check": "values_in_set_yes_no",
+      "column": "Attrition",
+      "passed": true,
+      "details": "found: ['No', 'Yes']"
+    },
+    {
+      "check": "values_in_set_yes_no",
+      "column": "OverTime",
+      "passed": true,
+      "details": "found: ['No', 'Yes']"
+    },
+    {
+      "check": "values_in_set",
+      "column": "termination_type",
+      "passed": true,
+      "details": "found: ['Active', 'Involuntary', 'Voluntary']"
+    }
+  ]
+}
