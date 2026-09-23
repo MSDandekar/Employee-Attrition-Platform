@@ -1,5 +1,5 @@
-from pathlib import Path
 from functools import lru_cache
+from pathlib import Path
 
 import joblib
 import pandas as pd
@@ -20,17 +20,6 @@ def load_model():
     if not MODEL_PATH.exists():
         raise RuntimeError(f"Model file not found: {MODEL_PATH}")
     return joblib.load(MODEL_PATH)
-
-class EmployeeData(BaseModel):
-    # fields...
-    pass
-
-@app.get("/")
-def root():
-    return {
-        "message": "Employee Attrition Prediction API is running",
-        "endpoint": "/predict",
-    }
 
 @app.get("/health")
 def health():
